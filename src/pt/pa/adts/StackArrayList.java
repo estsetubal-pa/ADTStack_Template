@@ -4,11 +4,12 @@ import sun.reflect.generics.reflectiveObjects.NotImplementedException;
 
 public class StackArrayList<T> implements Stack<T> {
 
-    private static final int DEFAULT_CAPACITY = 50;
+    private static final int DEFAULT_CAPACITY = 40;
 
     private T[] elements;
     private int size;
 
+    @SuppressWarnings("unchecked")
     public StackArrayList() {
         this.elements = (T[])new Object[DEFAULT_CAPACITY];
         this.size = 0;

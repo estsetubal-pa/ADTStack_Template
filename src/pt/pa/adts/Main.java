@@ -8,8 +8,23 @@ public class Main {
 
 	    try {
             for (int i=0; i<100; i++) {
-
+                stack.push(i);
             }
+        } catch(Exception e) {
+            System.out.println(e.getMessage());
+        }
+
+	    try {
+            System.out.println("Stack is empty? " + stack.isEmpty());
+
+            System.out.println("Top of stack is: " + stack.peek());
+
+            System.out.println("Pop all elements from stack:");
+            while(!stack.isEmpty()) {
+                System.out.println(stack.pop());
+            }
+
+            System.out.println("Stack is empty? " + stack.isEmpty());
 
         } catch(Exception e) {
             System.out.println(e.getMessage());
