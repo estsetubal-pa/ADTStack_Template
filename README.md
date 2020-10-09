@@ -5,7 +5,7 @@ Este repositório consiste num projeto **IntelliJ**
 de suporte à lecionação dos tipos abstratos de dados na linguagem Java,
 no contexto da unidade curricular de *Programação Avançada* - ESTSetúbal.
 
-Os exercícios solicitados são os seguintes (imagens omitidas):
+Os exercícios solicitados são os seguintes:
 
 ## ADT Stack | Exercícios de implementação
 
