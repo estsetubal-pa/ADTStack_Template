@@ -60,8 +60,8 @@ Um programa deverá solicitar um número ao utilizador, e.g., 233 e apresentar e
 ![image](stack-binary.png)
 
 
-1. Crie uma classe `DecimalToBinary` contendo um método `main()`; implemente o algoritmo solicitado no método:
+1. Crie uma classe `DecimalToBinary` contendo um método `main`; implemente o algoritmo solicitado no método:
 
     > `public static String decimal2Binary(int decimal)`
 
-2. No método `main()` crie o programa que solicita ao utilizador um número decimal e apresente a sua representação em binário; invoque o método anterior.
+2. No método `main` crie o programa que solicita ao utilizador um número decimal e apresente a sua representação em binário; invoque o método anterior.
