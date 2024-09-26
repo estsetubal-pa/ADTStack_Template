@@ -1,6 +1,5 @@
 package pt.pa.adts;
 
-import sun.reflect.generics.reflectiveObjects.NotImplementedException;
 
 public class StackLinkedList<T> implements Stack<T> {
 
@@ -22,7 +21,7 @@ public class StackLinkedList<T> implements Stack<T> {
         Element should be stored in a new node which is pointed by top sentinel.
         Must maintain the chaining of all nodes.
          */
-        throw new NotImplementedException();
+        throw new UnsupportedOperationException("This method is not implemented yet.");
     }
 
     @Override
@@ -31,27 +30,27 @@ public class StackLinkedList<T> implements Stack<T> {
         The element at the top of the stack is the element stored in the
         node immediately after the top sentinel.
          */
-        throw new NotImplementedException();
+     throw new UnsupportedOperationException("This method is not implemented yet.");
     }
 
     @Override
     public T peek() throws EmptyStackException {
-        throw new NotImplementedException();
+     throw new UnsupportedOperationException("This method is not implemented yet.");
     }
 
     @Override
     public int size() {
-        throw new NotImplementedException();
+      throw new UnsupportedOperationException("This method is not implemented yet.");
     }
 
     @Override
     public boolean isEmpty() {
-        throw new NotImplementedException();
+   throw new UnsupportedOperationException("This method is not implemented yet.");
     }
 
     @Override
     public void clear() {
-        throw new NotImplementedException();
+       throw new UnsupportedOperationException("This method is not implemented yet.");
     }
 
     /**
