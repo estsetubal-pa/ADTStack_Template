@@ -1,6 +1,5 @@
 package pt.pa.adts;
 
-import sun.reflect.generics.reflectiveObjects.NotImplementedException;
 
 public class StackArrayList<T> implements Stack<T> {
 
