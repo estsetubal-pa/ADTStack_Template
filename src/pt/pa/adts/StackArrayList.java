@@ -36,7 +36,6 @@ public class StackArrayList<T> implements Stack<T> {
     public T peek() throws EmptyStackException {
         throw new UnsupportedOperationException("This method is not implemented yet.");
 }
-    }
 
     @Override
     public int size() {
@@ -45,13 +44,14 @@ public class StackArrayList<T> implements Stack<T> {
 
     @Override
     public boolean isEmpty() {
+
         throw new UnsupportedOperationException("This method is not implemented yet.");
-}
+
     }
 
     @Override
     public void clear() {
         throw new UnsupportedOperationException("This method is not implemented yet.");
 }
-    }
+
 }
