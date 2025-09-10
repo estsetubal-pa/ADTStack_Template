@@ -15,15 +15,13 @@ Os exercícios solicitados são os seguintes:
 
 	- Ver: https://www.oracle.com/technical-resources/articles/java/javadoc-tool.html
 
-3. Forneça a documentação para a classe `StackArrayList`, sabendo que utiliza uma estrutura de dados baseada em *array* (da classe e atributos; a documentação dos métodos da interface é herdada).
+3. Forneça o código dos métodos por implementar, i.e., os que estão a lançar `NotImplementedException`; 
 
-4. Forneça o código dos métodos por implementar, i.e., os que estão a lançar `NotImplementedException`; 
+4. Compile e teste o programa fornecido, verificando que os resultados são os esperados; a excepção `FullStackException` deverá ser capturada com sucesso.
 
-5. Compile e teste o programa fornecido, verificando que os resultados são os esperados; a excepção `FullStackException` deverá ser capturada com sucesso.
+5. Modifique o método `push()` para aumentar dinamicamente o array `elements` sempre que necessário. Compile e teste novamente o programa; a excepção já não deverá ocorrer.
 
-6. Modifique o método `push()` para aumentar dinamicamente o array `elements` sempre que necessário. Compile e teste novamente o programa; a excepção já não deverá ocorrer.
-
-7. Pretende-se uma diferente implementação baseada em *lista (simplesmente) ligada* na classe `StackLinkedList`. A definição de um nó é fornecida na *inner class* `Node`.
+6. Pretende-se uma diferente implementação baseada em *lista (simplesmente) ligada* na classe `StackLinkedList`. A definição de um nó é fornecida na *inner class* `Node`.
 
 ```java
 public class StackLinkedList<T> implements Stack<T> {
