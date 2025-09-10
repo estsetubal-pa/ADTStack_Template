@@ -1,7 +1,5 @@
 package pt.pa.adts;
 
-package pt.pa.adts;
-
 /**
  * The Stack interface defines the contract for an Abstract Data Type (ADT) Stack.
  * A stack is a linear data structure that follows the Last-In-First-Out (LIFO) principle:
