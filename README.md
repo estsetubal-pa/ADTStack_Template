@@ -11,17 +11,13 @@ Os exercícios solicitados são os seguintes:
 
 1. Faça *clone* deste projeto base **ADTStack_Template** (projeto **IntelliJ**) do *GitHub*:
 
-2. Forneça a documentação *Javadoc* para a interface `Stack` da forma mais completa possível (interface e métodos).
+2. Forneça o código dos métodos por implementar, i.e., os que estão a lançar `NotImplementedException`; 
 
-	- Ver: https://www.oracle.com/technical-resources/articles/java/javadoc-tool.html
+3. Compile e teste o programa fornecido, verificando que os resultados são os esperados; a excepção `FullStackException` deverá ser capturada com sucesso.
 
-3. Forneça o código dos métodos por implementar, i.e., os que estão a lançar `NotImplementedException`; 
+4. Modifique o método `push()` para aumentar dinamicamente o array `elements` sempre que necessário. Compile e teste novamente o programa; a excepção já não deverá ocorrer.
 
-4. Compile e teste o programa fornecido, verificando que os resultados são os esperados; a excepção `FullStackException` deverá ser capturada com sucesso.
-
-5. Modifique o método `push()` para aumentar dinamicamente o array `elements` sempre que necessário. Compile e teste novamente o programa; a excepção já não deverá ocorrer.
-
-6. Pretende-se uma diferente implementação baseada em *lista (simplesmente) ligada* na classe `StackLinkedList`. A definição de um nó é fornecida na *inner class* `Node`.
+5. Pretende-se uma diferente implementação baseada em *lista (simplesmente) ligada* na classe `StackLinkedList`. A definição de um nó é fornecida na *inner class* `Node`.
 
 ```java
 public class StackLinkedList<T> implements Stack<T> {
@@ -44,11 +40,11 @@ public class StackLinkedList<T> implements Stack<T> {
 }
 ```
 
-8. Substitua a implementação de `Stack` utilizada no método `main()` por uma instância da classe anterior. Compile e teste o programa verificando que o comportamento do programa se mantém inalterado.
+6. Substitua a implementação de `Stack` utilizada no método `main()` por uma instância da classe anterior. Compile e teste o programa verificando que o comportamento do programa se mantém inalterado.
 
-9. Quais as complexidades algorítmicas para as operações `push()` e `pop()` nas duas implementações obtidas?
+7. Quais as complexidades algorítmicas para as operações `push()` e `pop()` nas duas implementações obtidas?
 
-10. (**Extra**) Para efeitos meramente pedagógicos, remova o atributo `size` da classe `StackLinkedList` e adapte o código existente para o tornar funcional. 
+8. (**Extra**) Para efeitos meramente pedagógicos, remova o atributo `size` da classe `StackLinkedList` e adapte o código existente para o tornar funcional. 
 
 
 ## ADT Stack | Exercícios de utilização
